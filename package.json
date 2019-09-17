@@ -4,8 +4,7 @@
   "description": "Boilerplate for react-application",
   "main": "index.js",
   "scripts": {
-    "setup": "npm install",
-    "postinstall": "netlify init --manual",
+    "setup": "npm install && netlify init --manual",
     "build": "webpack",
     "dev": "webpack-dev-server",
     "start-server": "npm run dev",
